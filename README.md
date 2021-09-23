@@ -18,6 +18,10 @@ git clone https://github.com/viperadnan-git/force-subscribe-telegram-bot
 - Change directory
 ```
 cd force-subscribe-telegram-bot
+
+### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bhaskar7789/Auto-Filter-Bot)
 ```
 - Install requirements
 ```
