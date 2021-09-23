@@ -18,15 +18,14 @@ git clone https://github.com/viperadnan-git/force-subscribe-telegram-bot
 - Change directory
 ```
 cd force-subscribe-telegram-bot
-
-### Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bhaskar7789/Auto-Filter-Bot)
 ```
 - Install requirements
 ```
 pip3 install -r requirements.txt
 ```
+ 
+ ### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bhaskar7789/Auto-Filter-Bot)
 
 ### Configuration
 Add [APP_ID](https://my.telegram.org/apps), [API_HASH](https://my.telegram.org/apps), [BOT_TOKEN](https://t.me/botfather) in [Config.py](Config.py) or in Environment Variables.
