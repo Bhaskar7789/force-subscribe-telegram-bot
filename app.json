@@ -1,0 +1,44 @@
+{
+    "name": "Auto Filter Bot",
+    "description": "Kind of a filter bot where you don't have to add filters manually.",
+    "logo": "https://telegra.ph/file/110a697a63ba23a0ed935.png",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Telegram Bot",
+        "BLACK MR"
+    ],
+    "website": "Nothing",
+    "repository": "https://github.com/Bhaskar7789/Auto-Filter-Bot",
+    "success_url": "https://telegram.dog/blackhawk606",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "TG_USER_SESSION": {
+            "description": "A pyrogram user session string. Generate from https://repl.it/@SpEcHiDe/GenerateStringSession",
+            "value": ""
+        },
+       
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
